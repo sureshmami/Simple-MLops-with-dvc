@@ -16,11 +16,24 @@ Download the data
 git init
 
 dvc init
+download datasets from "https://archive.ics.uci.edu/ml/datasets/wine+quality"
 
 dvc add data_given/winequality.csv
-
+```bash
 git add .
- 
+```
+```bash
 git commit -m "First commit"
-
-
+```
+```bash
+online updates for readme gitadd. && git commit -m "README.md updated"
+```
+```bash
+git branch -M main
+```
+```bash
+git remote add origin https://github.com/sureshmami/Simple-MLops-with-dvc.git
+```
+```bash
+git push -u origin main
+```
