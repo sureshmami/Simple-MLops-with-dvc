@@ -16,7 +16,9 @@ Download the data
 git init
 
 dvc init
+```bash
 download datasets from "https://archive.ics.uci.edu/ml/datasets/wine+quality"
+```
 
 dvc add data_given/winequality.csv
 ```bash
@@ -36,4 +38,7 @@ git remote add origin https://github.com/sureshmami/Simple-MLops-with-dvc.git
 ```
 ```bash
 git push -u origin main
+```
+```bash
+Created configuration file "params.yaml" for our project
 ```
