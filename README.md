@@ -42,3 +42,25 @@ git push -u origin main
 ```bash
 Created configuration file "params.yaml" for our project
 ```
+tox command - 
+```bash
+tox
+```
+for rebuilding -
+```bash
+tox -r
+```
+pytest -
+```bash
+pytest -v
+```
+setup commands - 
+```bash
+pip install -e .
+```
+
+build your own package commands -
+```bash
+python setup.py sdist bdist_wheel
+```
+
